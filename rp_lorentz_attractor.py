@@ -3,6 +3,7 @@
 Created on Fri Aug 20 16:28:38 2021
 
 @author: antona
+https://matplotlib.org/stable/gallery/mplot3d/lorenz_attractor.html
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -25,7 +26,7 @@ def lorenz(x, y, z, s=10, r=28, b=2.667):
 
 
 dt = 0.01
-num_steps = 200
+num_steps = 10000
 
 # Need one more for the initial values
 xs = np.empty(num_steps + 1)
